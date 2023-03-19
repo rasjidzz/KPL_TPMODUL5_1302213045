@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace TPMOD5_1302213045
+{
+    class mainProgram
+    {
+        static void Main(String[] args)
+        {
+            HaloGeneric haloGeneric = new HaloGeneric();
+            haloGeneric.Sapauser("Risjad");
+        }
+    }
+}
